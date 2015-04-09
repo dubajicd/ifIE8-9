@@ -6,7 +6,9 @@
         if (msie > 0) {
             var msieVersion = parseInt(ua.substring(msie + 5, ua.indexOf(".", msie)));
             if(msieVersion < 10){
-                jQuery('input, textarea').placeholder();
+                /**
+                 * Enter some code here
+                 * /
             }
         }
     }
